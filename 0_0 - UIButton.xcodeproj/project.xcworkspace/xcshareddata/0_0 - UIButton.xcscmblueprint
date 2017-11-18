@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E5BA5395FE1941567E85CB415DCEB3BB4ECCFF78",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9278AF3F8364A9D55C15D81EF5A7B885CA6AE15A" : 9223372036854775807,
+    "E5BA5395FE1941567E85CB415DCEB3BB4ECCFF78" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D20B8763-2221-4D05-AA9C-DC5FDFC2A3F0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9278AF3F8364A9D55C15D81EF5A7B885CA6AE15A" : "",
+    "E5BA5395FE1941567E85CB415DCEB3BB4ECCFF78" : "Programmatic%20UI\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "0_0 - UIButton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "0_0 - UIButton\/0_0 - UIButton.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/justinmreina\/iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9278AF3F8364A9D55C15D81EF5A7B885CA6AE15A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/justinmreina\/iOS-pUI.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E5BA5395FE1941567E85CB415DCEB3BB4ECCFF78"
+    }
+  ]
+}

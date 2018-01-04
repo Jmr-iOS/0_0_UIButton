@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D039B4BA1BF4D7950024005F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039B4B91BF4D7950024005F /* AppDelegate.swift */; };
-		D039B4BC1BF4D7950024005F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039B4BB1BF4D7950024005F /* ViewController.swift */; };
-		D039B4C11BF4D7950024005F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D039B4C01BF4D7950024005F /* Assets.xcassets */; };
+		D0052E0A1FFED7C00025CCA6 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D0052E071FFED7C00025CCA6 /* Base.lproj */; };
+		D0052E0C1FFED7C00025CCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0052E091FFED7C00025CCA6 /* Assets.xcassets */; };
+		D0052E0F1FFED7CF0025CCA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0052E0D1FFED7CE0025CCA6 /* ViewController.swift */; };
+		D0052E101FFED7CF0025CCA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0052E0E1FFED7CE0025CCA6 /* AppDelegate.swift */; };
+		D0052E141FFED81F0025CCA6 /* Empty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0052E111FFED81F0025CCA6 /* Empty.storyboard */; };
+		D0052E151FFED81F0025CCA6 /* NewClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0052E121FFED81F0025CCA6 /* NewClass.swift */; };
+		D0052E161FFED81F0025CCA6 /* Stdcomments.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0052E131FFED81F0025CCA6 /* Stdcomments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0052E071FFED7C00025CCA6 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		D0052E081FFED7C00025CCA6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0052E091FFED7C00025CCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0052E0D1FFED7CE0025CCA6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		D0052E0E1FFED7CE0025CCA6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		D0052E111FFED81F0025CCA6 /* Empty.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Empty.storyboard; path = ../../../../../Ref/iOS/Base/Empty.storyboard; sourceTree = "<group>"; };
+		D0052E121FFED81F0025CCA6 /* NewClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewClass.swift; path = ../../../../../Ref/iOS/Base/NewClass.swift; sourceTree = "<group>"; };
+		D0052E131FFED81F0025CCA6 /* Stdcomments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Stdcomments.swift; path = ../../../../../Ref/iOS/Base/Stdcomments.swift; sourceTree = "<group>"; };
 		D039B4B61BF4D7950024005F /* 0_0 - UIButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "0_0 - UIButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D039B4B91BF4D7950024005F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D039B4BB1BF4D7950024005F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D039B4C01BF4D7950024005F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D039B4C51BF4D7950024005F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,11 +39,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0052E061FFED7B40025CCA6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D0052E111FFED81F0025CCA6 /* Empty.storyboard */,
+				D0052E121FFED81F0025CCA6 /* NewClass.swift */,
+				D0052E131FFED81F0025CCA6 /* Stdcomments.swift */,
+				D0052E091FFED7C00025CCA6 /* Assets.xcassets */,
+				D0052E071FFED7C00025CCA6 /* Base.lproj */,
+				D0052E081FFED7C00025CCA6 /* Info.plist */,
+				D039B4B71BF4D7950024005F /* Products */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		D039B4AD1BF4D7950024005F = {
 			isa = PBXGroup;
 			children = (
-				D039B4B81BF4D7950024005F /* 0_0 - UIButton */,
-				D039B4B71BF4D7950024005F /* Products */,
+				D0052E061FFED7B40025CCA6 /* Base */,
+				D0052E0E1FFED7CE0025CCA6 /* AppDelegate.swift */,
+				D0052E0D1FFED7CE0025CCA6 /* ViewController.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,17 +68,6 @@
 				D039B4B61BF4D7950024005F /* 0_0 - UIButton.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		D039B4B81BF4D7950024005F /* 0_0 - UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				D039B4B91BF4D7950024005F /* AppDelegate.swift */,
-				D039B4BB1BF4D7950024005F /* ViewController.swift */,
-				D039B4C01BF4D7950024005F /* Assets.xcassets */,
-				D039B4C51BF4D7950024005F /* Info.plist */,
-			);
-			path = "0_0 - UIButton";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,7 +103,7 @@
 					D039B4B51BF4D7950024005F = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = HRCQBX7PVQ;
-						LastSwiftMigration = 0910;
+						LastSwiftMigration = 0920;
 					};
 				};
 			};
@@ -118,7 +130,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D039B4C11BF4D7950024005F /* Assets.xcassets in Resources */,
+				D0052E141FFED81F0025CCA6 /* Empty.storyboard in Resources */,
+				D0052E0C1FFED7C00025CCA6 /* Assets.xcassets in Resources */,
+				D0052E0A1FFED7C00025CCA6 /* Base.lproj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D039B4BC1BF4D7950024005F /* ViewController.swift in Sources */,
-				D039B4BA1BF4D7950024005F /* AppDelegate.swift in Sources */,
+				D0052E151FFED81F0025CCA6 /* NewClass.swift in Sources */,
+				D0052E161FFED81F0025CCA6 /* Stdcomments.swift in Sources */,
+				D0052E101FFED7CF0025CCA6 /* AppDelegate.swift in Sources */,
+				D0052E0F1FFED7CF0025CCA6 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,11 +255,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "0_0 - UIButton/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---UIButton";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -252,10 +271,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = HRCQBX7PVQ;
-				INFOPLIST_FILE = "0_0 - UIButton/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---Empty-Template--Swift-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jaostech.--0---UIButton";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 			};
